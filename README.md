@@ -8,6 +8,7 @@
 * gradle 4.9  
 ### 写一个hello world项目
 1.[start.spring.io](https://start.spring.io/)初始化一个项目  
+![start.spring.io](/image/Selection_002.png)
 2.进入项目的根目录执行gradle build构建项目  
 3.执行java -jar build/libs/下面的jar包执行我们构建的项目  
 4.访问localhost:8080
