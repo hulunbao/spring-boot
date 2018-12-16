@@ -1,4 +1,4 @@
-package top.hulun.spring.boot.blog.initializrstart;
+package top.hulun.spring.boot.blog;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
