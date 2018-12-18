@@ -15,11 +15,16 @@
 ### 扩展学习
 * [Java编程要点](https://github.com/waylau/essential-java)  
 * [Gradle 3用户指南](https://github.com/waylau/gradle-3-user-guide)
-## Thymeleaf实战  
-### API设计  
+### Thymeleaf实战  
+#### API设计  
 * GET/users : 返回用于展示用户列表的list.html界面.  
 * GET/users/{id} : 放回用于展示现用户的view.html界面.  
 * GET/users/form : 返回用于新增或者修改用户的form.html界面.  
 * POST/users : 新增或修改用户,成功后重定向到list.html界面.  
 * GET/users/delete/{id} : 根据id删除相应的用户数据,成功后重定向到list.html界面.  
 * GET/users/modify/{id} : 根据id过去相应的用户数据,并返回form.html界面用来执行修改.  
+**此借口没有遵循restful规范**  
+#### 后台编码
+* 实体User  
+* 资源库UserRepository  
+* 控制器UserController
