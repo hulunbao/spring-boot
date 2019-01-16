@@ -14,7 +14,13 @@
 4.访问localhost:8080
 ### 扩展学习
 * [Java编程要点](https://github.com/waylau/essential-java)  
-* [Gradle 3用户指南](https://github.com/waylau/gradle-3-user-guide)
+* [Gradle 3用户指南](https://github.com/waylau/gradle-3-user-guide)  
+### Thymeleaf  
+* java模板引擎，能处理html,xml,javascript,css,和纯文本  
+### Thymeleaf与springboot集成  
+#### 环境  
+* Tymeleaf 3.0.3 RELEASE  
+* Tymeleaf Layout Dialect 2.2.0
 ### Thymeleaf实战  
 #### API设计  
 * GET/users : 返回用于展示用户列表的list.html界面.  
