@@ -21,6 +21,7 @@
 #### 环境  
 * Tymeleaf 3.0.3 RELEASE  
 * Tymeleaf Layout Dialect 2.2.0
+#### 修改build.gradlle
 ### Thymeleaf实战  
 #### API设计  
 * GET/users : 返回用于展示用户列表的list.html界面.  
