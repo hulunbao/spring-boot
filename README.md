@@ -30,7 +30,7 @@
 * POST/users : 新增或修改用户,成功后重定向到list.html界面.  
 * GET/users/delete/{id} : 根据id删除相应的用户数据,成功后重定向到list.html界面.  
 * GET/users/modify/{id} : 根据id过去相应的用户数据,并返回form.html界面用来执行修改.  
-**此接口没有遵循restful规范**  
+
 #### 后台编码
 * 实体User  
 * 资源库UserRepository  
