@@ -6,6 +6,11 @@
     <title>Title</title>
 </head>
 <body>
-
+<div th:replace="~{fragments/header :: header}"></div>
+<h3 th:text="${title}">hulun</h3>
+<p><strong>ID:</strong><span th:text="${user.id}"></span></p>
+<p><strong>Name:</strong><span th:text="${user.name}"></span></p>
+<p><strong>Email:</strong><span th:text="${user.email}"></span></p>
+<div th:replace="~{fragments/footer :: footer}"></div>
 </body>
 </html>
