@@ -60,9 +60,39 @@ public class UserController {
         return new ModelAndView("users/form","userModel",model);
     }
 
+    /**
+     * 创建用户
+     * @param user
+     * @return
+     */
     @PostMapping
     public ModelAndView saveOrUpdateUser(User user){
         user = userRepository.saveOrUpdateUser(user);
         return new ModelAndView("redirect:/users");
+    }
+
+    /**
+     * 删除用户
+     * @param id
+     * @param model
+     * @return
+     */
+    @GetMapping("/delete/{id}")
+    public ModelAndView delete(@PathVariable("id") Long id,Model model){
+        userRepository.delete(id);
+        return new ModelAndView("redirect:/users");
+    }
+    /**
+     * 修改用户
+     * @param id
+     * @param model
+     * @return
+     */
+    @GetMapping("/modify/{id}")
+    public ModelAndView modify(@PathVariable("id") Long id,Model model){
+        User user = userRepository.getUserById(id);
+        model.addAttribute("user",user);
+        model.addAttribute("title","修改用户");
+        return new ModelAndView("users/form","userMdel",model);
     }
 }

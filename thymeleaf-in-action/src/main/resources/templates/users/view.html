@@ -12,5 +12,9 @@
 <p><strong>Name:</strong><span th:text="${user.name}"></span></p>
 <p><strong>Email:</strong><span th:text="${user.email}"></span></p>
 <div th:replace="~{fragments/footer :: footer}"></div>
+<div>
+    <a th:href="@{'/users/delete/'+${user.id}}">删除</a>
+    <a th:href="@{'/users/modify/'+${user.id}}">修改</a>
+</div>
 </body>
 </html>
