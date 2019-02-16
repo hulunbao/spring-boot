@@ -75,4 +75,6 @@
 
 ![PagingAndSortingRepository](/image/Selection_004.png)
 
-
+* Spring Data JPA 自定义接口  
+根据方法名创建查询
+![PersonRepository](/image/Selection_005.png)
