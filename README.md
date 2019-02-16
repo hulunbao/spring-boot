@@ -64,6 +64,13 @@
 * 更容易构建基于使用Spring的数据访问技术栈的应用程序  
 #### Spring Data JPA 常用接口
 * CrudRepository  
+> 方便处理数据库常用操作（增删该查）
+
 ![CrudRepository](/image/Selection_001.png)
 
-	
+* PagingAndSortingRepository  
+
+> 支持分页和排序的接口（数据库数据量大时使用分页/排序提升性能）
+
+![PagingAndSortingRepository](/image/Selection_004.png）
+
