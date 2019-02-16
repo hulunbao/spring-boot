@@ -52,9 +52,18 @@
 * 多对多
 
 ####EntityManager
-数据持久化接口
+数据持久化接口  
+
 * 定义用于持久化上下文交互的方法  
-* 
+* 创建和删除持久实体实例，通过实体的主键查找实体  
+* 允许在实体上运行查询  
 
+#### Spring Data JPA
+* 更大的Spring Data 家族的一部分  
+* 基于JPA的数据访问层的增强支持  
+* 更容易构建基于使用Spring的数据访问技术栈的应用程序  
+#### Spring Data JPA 常用接口
+* CrudRepository  
+![CrudRepository](/image/Selection_001.png)
 
-
+	
