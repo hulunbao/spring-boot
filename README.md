@@ -22,7 +22,7 @@
 * Tymeleaf 3.0.3 RELEASE  
 * Tymeleaf Layout Dialect 2.2.0
 #### 修改build.gradlle
-### Thymeleaf实战  
+### Thymeleaf
 #### API设计  
 * GET/users : 返回用于展示用户列表的list.html界面.  
 * GET/users/{id} : 放回用于展示现用户的view.html界面.  
@@ -36,6 +36,25 @@
 * 资源库UserRepository  
 * 控制器UserController  
 ### 数据持久化
+* JPA  
+> JPA(Java Persistence API) 是用于管理JavaEE和JavaSE环境中的持久化，以及对象/关系映射的Java API  
+#### 实体  
+* 实体表示关系型数据库中的表
+* 每个实体实例对应该表中的行
+* 类必须用javaxpersistence.Entity注解  
+* 类必须有一个public或者protected的无惨构造函数
+* 实体实例被当做值以分离对象方式进行传递（序列化），则该类必须实现Serializable接口
+* 实体必须要有唯一的对象标识符：简单主键（javax.persistence.Id)，复合主键（javax.persistence.EmbeddedId和javax.persistence.IdClass）  
+#### 关系
+* 一对一
+* 一对多
+* 多对一
+* 多对多
+
+####EntityManager
+数据持久化接口
+* 定义用于持久化上下文交互的方法  
+* 
 
 
 
