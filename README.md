@@ -77,4 +77,38 @@
 
 * Spring Data JPA 自定义接口  
 根据方法名创建查询
-![PersonRepository](/image/Selection_005.png)
+![PersonRepository](/image/Selection_005.png)  
+
+### 全文搜索
+#### 数据结构
+* 结构化  
+> 具有固定格式或有限长度的数据，如数据库、元数据等。
+
+* 非结构化
+> 不定长或者没有固定格式的数据，如邮件、Word文档等。
+
+#### 非结构化数据检索
+* 顺序扫描法（Serial Scanning）
+* 全文搜索（Full-text Search）
+
+#### 全文搜索实现技术
+* Lucene  
+* ElasticSearch  
+* Solr  
+#### ElasticSearch
+* 高度可扩展的开源全文搜索和分析引擎  
+* 快速的，近实时地对大数据进行存储，搜索和分析  
+* 用来支撑有复杂的数据搜索需求的企业级应用  
+
+特点:  
+	1.分布式  
+	2.高可用  
+	3.对类型  
+	4.多API  
+	5.面向文档  
+	6.异步导入  
+	7.近实时  
+	8.基于Lucene
+	9.Apache协议
+
+
