@@ -108,7 +108,15 @@
 	5.面向文档  
 	6.异步导入  
 	7.近实时  
-	8.基于Lucene
-	9.Apache协议
+	8.基于Lucene  
+	9.Apache协议  
+	
+#### Elasticsearch 与 springboot 集成
+
+环境:
+
+* Elasticsearch 2.4.4
+* Spring Data Elasticsearch 2.1.3.RELEASE
+* JNA 4.3.0
 
 
