@@ -138,5 +138,16 @@
 * 响应式布局  
 * 移动设备优先  
 
-
+#### BootStrap与SpringBoot集成  
+配置环境  
+ 
+* Tether 1.4.0:<http://tether.io/>  
+* Bootstrap v4.0.0-alpha.6:<https://v4-alpha.getbootstrap.com/>  
+* jQuery 3.1.1:<http://jquery.com/download/  
+* Font Awesome4.7.0:<http://fontawesome.io>
+* NProgress 0.2.0:<http://ricostacruz.com/nprogress/>
+* Thinker-md:<http://git.oschina.net/benhail/thinker-md>
+* jQuery Tags Input 1.3.6:<http://xoxco.com/projects/code/tagsinput/>
+* Bootstrap Chosen1.0.3:<https://github.com/haubek/bootstrap4c-chosen>
+* toastr 2.1.1:<http://www.toastrjs.com/>
 
